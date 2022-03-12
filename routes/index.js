@@ -140,7 +140,7 @@ router.get('/showstudents/:name',async(req,res)=>{
       res.send({
         statusCode:201,
         message:"Students added to a mentor successfully",
-        
+        data:x
       })  
     }else{
       res.send({
